@@ -1,0 +1,562 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7020,
+      "max": [
+        3.3009753227233887,
+        3.3051793575286865,
+        2.4048557281494141
+      ],
+      "min": [
+        0.63693326711654663,
+        0.64113748073577881,
+        -0.0066741015762090683
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 84240,
+      "componentType": 5126,
+      "count": 7020,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7020,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11916,
+      "max": [
+        7019
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 168480,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        2.4445867538452148,
+        1.757672905921936,
+        2.3162980079650879
+      ],
+      "min": [
+        2.1279838085174561,
+        1.4410701990127563,
+        2.0436692237854004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 169056,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.7071070671081543,
+        0.70710670948028564,
+        1
+      ],
+      "min": [
+        -0.70710670948028564,
+        -0.70711159706115723,
+        -0.99999570846557617
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112320,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        6.255389962461777e-06,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1.9831421013805084e-05,
+        -6.9043130679347087e-06,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 47664,
+      "componentType": 5125,
+      "count": 84,
+      "max": [
+        47
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 169632,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        1.7465126514434814,
+        2.455859899520874,
+        2.3160724639892578
+      ],
+      "min": [
+        1.4302675724029541,
+        2.1389937400817871,
+        2.0433979034423828
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 170208,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.70821839570999146,
+        0.70599347352981567,
+        1
+      ],
+      "min": [
+        -0.70822286605834961,
+        -0.70821595191955566,
+        -0.99999499320983887
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 113088,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        1.5008369700808544e-05,
+        1,
+        0.18269774317741394,
+        1
+      ],
+      "min": [
+        -3.1563276934321038e-06,
+        0.00033276563044637442,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 48000,
+      "componentType": 5125,
+      "count": 84,
+      "max": [
+        47
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 170784,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        2.4508347511291504,
+        2.4599170684814453,
+        2.3163177967071533
+      ],
+      "min": [
+        2.1339390277862549,
+        2.1436080932617188,
+        2.0436890125274658
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 171360,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.70587164163589478,
+        0.70833975076675415,
+        1
+      ],
+      "min": [
+        -0.70833945274353027,
+        -0.70833981037139893,
+        -0.99999570846557617
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 113856,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        1.9320226783747785e-05,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -2.0979109649488237e-06,
+        0,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 48336,
+      "componentType": 5125,
+      "count": 84,
+      "max": [
+        47
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "allenbranch (https://sketchfab.com/allenbranch)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/a7fabdf4241845e8b07b8019cee731a9",
+      "title": "Eiffel 32\" Round Dining Table"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48672,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 171936,
+      "byteOffset": 48672,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 114624,
+      "byteOffset": 220608,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 335232,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Import Symbol location <Not Shared> [120258]__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Import Symbol location <Not Shared> [120258]_[120243]__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Import Symbol location <Not Shared> [120258]_[120244]__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TANGENT": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Import Symbol location <Not Shared> [120258]_[120245]__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -0.99999994039535522,
+        0,
+        0.00038616769597865641,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.00038616769597865641,
+        0,
+        -0.99999994039535522,
+        0,
+        0.007445300929248333,
+        0,
+        -2.3981833457946777,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "06d3c6029e7f4f51b2bb78167bb72420.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.57735026918962573,
+        0.57735026918962584,
+        -0.57735026918962584,
+        0,
+        -0.40824829046386313,
+        0.40824829046386302,
+        0.81649658092772615,
+        0,
+        0.70710678118654757,
+        0.70710678118654757,
+        0,
+        0,
+        1.9843090772628784,
+        -1.8972446918487549,
+        3.2275950908660889,
+        1
+      ],
+      "name": "3D View: {3D}"
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        7,
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1.9650048017501831,
+        -1.9657953977584839,
+        2.5246870024274448e-13,
+        1
+      ],
+      "name": "Import Symbol location <Not Shared> [120258]"
+    },
+    {
+      "mesh": 0,
+      "name": "Import Symbol location <Not Shared> [120258]__0"
+    },
+    {
+      "children": [
+        9,
+        11,
+        13
+      ],
+      "name": "Import Symbol location <Not Shared> [120258]_[120246]"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Import Symbol location <Not Shared> [120258]_[120243]"
+    },
+    {
+      "mesh": 1,
+      "name": "Import Symbol location <Not Shared> [120258]_[120243]__0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "Import Symbol location <Not Shared> [120258]_[120244]"
+    },
+    {
+      "mesh": 2,
+      "name": "Import Symbol location <Not Shared> [120258]_[120244]__0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "name": "Import Symbol location <Not Shared> [120258]_[120245]"
+    },
+    {
+      "mesh": 3,
+      "name": "Import Symbol location <Not Shared> [120258]_[120245]__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
