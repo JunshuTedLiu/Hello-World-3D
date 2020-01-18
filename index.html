@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello, WebVR! • A-Frame</title>
-    <meta name="description" content="Hello, WebVR! • A-Frame">
-    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-  </head>
-  <body>
-    
-    <a-scene background="color: #FAFAFA">
-        <a-assets>
-          <!-- <a-asset-item id="chair" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item> -->
-          <a-asset-item id="chair" src="scenes/chair-0/scene.gltf"></a-asset-item>
-        </a-assets>
-      <!--       
-      <a-sky color="#6EBAA7"></a-sky>
-      <a-cylinder position="1.5 0.75 -4" radius="0.25" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-cylinder position="-1.5 0.75 -4" radius="0.25" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 1 -5" rotation="0 0 0" width="5" height="4" color="gray" shadow></a-plane>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="5" height="5" color="steelblue" shadow></a-plane>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="2.5" height="5" color="maroon" shadow></a-plane>
-      <a-plane position="0 1.5 -2" material="src: https://cdn.glitch.com/e68c0ff7-223f-4768-8f38-60f75801ae54%2FVan-Gogh-2.jpg?v=1579112298093;
-                                           transparent: true"></a-plane>
-       -->
-      <a-entity position="0 5 -15" gltf-model="#chair"></a-entity>
-    </a-scene>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, WebVR! • A-Frame</title>
+        <meta name="description" content="Hello, WebVR! • A-Frame">
+        <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    </head>
+    <body>
+
+        <a-scene background="color: #FAFAFA">
+            <a-assets>
+                <!-- <a-asset-item id="chair" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item> -->
+                <a-asset-item id="chair" src="scenes/chair-0/scene.gltf"></a-asset-item>
+<!--                <a-asset-item id="chair" src="scenes/banana_chair/scene.gltf"></a-asset-item>-->
+                <a-asset-item id="table" src="scenes/round_table/scene.gltf"></a-asset-item>
+            </a-assets>
+            <!--       
+<a-sky color="#6EBAA7"></a-sky>
+<a-cylinder position="1.5 0.75 -4" radius="0.25" height="1.5" color="#FFC65D"></a-cylinder>
+<a-cylinder position="-1.5 0.75 -4" radius="0.25" height="1.5" color="#FFC65D"></a-cylinder>
+<a-plane position="0 1 -5" rotation="0 0 0" width="5" height="4" color="gray" shadow></a-plane>
+<a-plane position="0 0 -4" rotation="-90 0 0" width="5" height="5" color="steelblue" shadow></a-plane>
+<a-plane position="0 0 -4" rotation="-90 0 0" width="2.5" height="5" color="maroon" shadow></a-plane>
+<a-plane position="0 1.5 -2" material="src: https://cdn.glitch.com/e68c0ff7-223f-4768-8f38-60f75801ae54%2FVan-Gogh-2.jpg?v=1579112298093;
+transparent: true"></a-plane>
+-->
+            <a-entity position="0 10 -20" gltf-model="#chair" scale="1 1 1"></a-entity>
+            <a-entity position="-5 0 -20" gltf-model="#table" scale="0.03 0.03 0.03"></a-entity>
+        </a-scene>
+    </body>
 </html>
