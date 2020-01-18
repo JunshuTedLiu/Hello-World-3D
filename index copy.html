@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
-    <title>Hello, WebVR! • A-Frame</title>
+    <title>Testing with people</title>
     <meta name="description" content="Hello, WebVR! • A-Frame">
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
   </head>
@@ -13,14 +12,13 @@
           <a-asset-item id="chair-0" src="models/chair-0/scene.gltf"></a-asset-item>
           <a-asset-item id="rectangle-0" src="models/rectangle-0/scene.gltf"></a-asset-item>
           <a-asset-item id="pillar-0" src="models/pillar-0/scene.gltf"></a-asset-item>
-            <!--                7 people gltfs.-->
-                            <a-asset-item id="casual-women" src="models/casual_woman_walking/scene.gltf"></a-asset-item>
-                <a-asset-item id="food-women" src="models/gwen/scene.gltf"></a-asset-item>
-                <a-asset-item id="skirt-women" src="models/d3d-_lo_poly_people_vol1_-_sample/scene.gltf"></a-asset-item>
-                <a-asset-item id="casual-men" src="models/paco/scene.gltf"></a-asset-item>
-                <a-asset-item id="model-men" src="models/model6/scene.gltf"></a-asset-item>
-                <a-asset-item id="sitting-casual-women" src="models/free_091_aya_obj/scene.gltf"></a-asset-item>
-                <a-asset-item id="sitting-business-women" src="models/dosch_3d_-_people-_business_vol2-_sample/scene.gltf"></a-asset-item>
+            <a-asset-item id="table-0" src="models/round_table/scene.gltf"></a-asset-item>
+<!--            7 people.-->
+            <a-asset-item id="casual-women" src="models/casual_woman_walking/scene.gltf"></a-asset-item>
+            <a-asset-item id="casual-men" src="models/paco/scene.gltf"></a-asset-item>
+            <a-asset-item id="food-women" src="models/gwen/scene.gltf"></a-asset-item>
+            <a-asset-item id="sitting-business-women" src="models/dosch_3d_-_people-_business_vol2-_sample/scene.gltf"></a-asset-item>
+            <a-asset-item id="sitting-casual-women" src="models/free_091_aya_obj/scene.gltf"></a-asset-item>
         </a-assets>
       
       <!-- Base layers -->
@@ -34,8 +32,22 @@
       <a-entity id="pillar" position="-7 -3 -9" rotation="0 0 0" scale=".05 .05 .05" gltf-model="#pillar-0"></a-entity>
       <a-plane id="cafeFloor" position="-1 -1.9 -22.5" rotation="-90 -80 -10" width="20" height="10" color="gold" shadow></a-plane>
       <a-plane id="cafeFloorDesign" position="-1 -1.9 -15" rotation="-90 -80 -10" width="2.5" height="10" color="orange" shadow></a-plane>
-<!--        people-->
-        <a-entity id="casual-women" position="-1 0 -15" rotation="0 0 0" scale="0.01 0.01 0.01" gltf-model="#casual-women"></a-entity>
-        </a-scene>
-    </body>
+
+      <!-- Cafe Entities -->
+
+
+      <!-- People -->
+        <a-entity id="chair" position="-0.85 0 -12.45" rotation="0 180 0" scale="0.25 0.25 0.25" gltf-model="#chair-0"></a-entity>
+        <a-entity id="sitting-business-women" position="-1 -2 -12" rotation="0 0 0" scale="2 2 2" gltf-model="#sitting-business-women"></a-entity>
+        
+        <a-entity id="casual-women" position="-1 -1.8 -15" rotation="0 0 0" scale="0.02 0.02 0.02" gltf-model="#casual-women"></a-entity>
+        <a-entity id="casual-men" position="-1 0 -17" rotation="0 0 0" scale="2 2 2" gltf-model="#casual-men"></a-entity>
+        <a-entity id="food-women" position="-1 0 -19" rotation="0 0 0" scale="2.15 2.15 2.15" gltf-model="#food-women"></a-entity>
+        <a-entity id="sitting-casual-women" position="-1 0 -21" rotation="0 0 0" scale="2 2 2" gltf-model="#sitting-casual-women"></a-entity>
+
+      <!-- <a-entity position="0 5 -15" rotation="0 210 0" gltf-model="#chair-0"></a-entity> -->
+      <!-- <a-entity light="type: directional; color: gold; intensity: 1" position="3 2 0"></a-entity> -->
+      <!-- <a-entity position="0 5 -15" gltf-model="#rectangle-0"></a-entity> -->
+    </a-scene>
+  </body>
 </html>
