@@ -12,12 +12,14 @@
           <a-asset-item id="chair-0" src="models/chair-0/scene.gltf"></a-asset-item>
           <a-asset-item id="rectangle-0" src="models/rectangle-0/scene.gltf"></a-asset-item>
           <a-asset-item id="pillar-0" src="models/pillar-0/scene.gltf"></a-asset-item>
+          <a-asset-item id="table-0" src="models/round_table/scene.gltf"></a-asset-item>
+          <a-asset-item id="table-1" src="models/round-table-2/scene.gltf"></a-asset-item>
         </a-assets>
       
       <!-- Base layers -->
       <!-- <a-sky src="https://i.imgur.com/mYmmbrp.jpg" color="#1f263b"></a-sky> -->
       <a-sky src="textures/night-sky.jpg"></a-sky>
-      <a-plane id="ground" src="https://i.imgur.com/mYmmbrp.jpg" position="8 -3 -35" rotation="-90 -80 -10" width="65" height="32.5" color="pink" shadow></a-plane>
+      <a-plane id="ground" src="https://i.imgur.com/mYmmbrp.jpg" position="8 -3 -35" rotation="-90 -80 -10" width="65" height="32.5" color="pink"></a-plane>
       
       <!-- Architecture -->
       <!-- <a-entity id="sideWall-tmp"  position="-10 -2 -16" scale="1 1 3" gltf-model="#rectangle-0"></a-entity> -->
@@ -33,7 +35,20 @@
       <a-plane id="cafeFloorDesign" src="textures/stripes.jpeg" position="-1 -2.89 -15" rotation="-90 -80 -10" width="2.5" height="10" color="red" shadow></a-plane>
 
       <!-- Cafe Entities -->
+      <a-entity id="cafeTable-outer-0" position="5 -1 -15" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-outer-1" position="5 -1 -18" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-outer-2" position="5 -1 -21" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-outer-3" position="5 -1 -24" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-outer-4" position="5 -1 -27" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-outer-5" position="5 -1 -30" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
 
+      <a-entity id="cafeTable-inner-0" position="-3 -1 -17" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-1" position="-3 -1 -20" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-2" position="-3 -1 -23" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-3" position="-3 -1 -26" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-4" position="1 -1 -20" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-5" position="1 -1 -26" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
+      <a-entity id="cafeTable-inner-6" position="1 -1 -14" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
 
       <!-- People -->
 
