@@ -2,33 +2,33 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Testing with people</title>
+        <title>HW1-Hello-World-3D</title>
         <meta name="description" content="Hello, WebVR! • A-Frame">
         <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     </head>
     <body>
         <a-scene>
             <a-assets>
+                <!--Objects-->
                 <a-asset-item id="chair-0" src="models/chair-0/scene.gltf"></a-asset-item>
                 <a-asset-item id="rectangle-0" src="models/rectangle-0/scene.gltf"></a-asset-item>
                 <a-asset-item id="pillar-0" src="models/pillar-0/scene.gltf"></a-asset-item>
                 <a-asset-item id="table-0" src="models/round_table/scene.gltf"></a-asset-item>
-                <!-- 7 people.-->
+                <a-asset-item id="table-1" src="models/round-table-2/scene.gltf"></a-asset-item>
+                <!--People-->
                 <a-asset-item id="casual-women" src="models/casual_woman_walking/scene.gltf"></a-asset-item>
                 <a-asset-item id="casual-men" src="models/paco/scene.gltf"></a-asset-item>
                 <a-asset-item id="bird-women" src="models/gwen/scene.gltf"></a-asset-item>
                 <a-asset-item id="sitting-business-women" src="models/dosch_3d_-_people-_business_vol2-_sample/scene.gltf"></a-asset-item>
                 <a-asset-item id="sitting-casual-women" src="models/free_091_aya_obj/scene.gltf"></a-asset-item>
                 <a-asset-item id="model-men" src="models/model6/scene.gltf"></a-asset-item>
-
-                <a-asset-item id="table-0" src="models/round_table/scene.gltf"></a-asset-item>
-                <a-asset-item id="table-1" src="models/round-table-2/scene.gltf"></a-asset-item>
             </a-assets>
 
             <!-- Base layers -->
-            <!-- <a-sky src="https://i.imgur.com/mYmmbrp.jpg" color="#1f263b"></a-sky> -->
+            
             <a-sky src="textures/night-sky.jpg"></a-sky>
-            <!--      <a-plane id="ground" src="https://i.imgur.com/mYmmbrp.jpg" position="8 -3 -35" rotation="-90 -80 -10" width="65" height="32.5" color="pink" shadow></a-plane>-->
+            <!-- <a-sky src="https://i.imgur.com/mYmmbrp.jpg" color="#1f263b"></a-sky> -->
+            <!-- <a-plane id="ground" src="https://i.imgur.com/mYmmbrp.jpg" position="8 -3 -35" rotation="-90 -80 -10" width="65" height="32.5" color="pink" shadow></a-plane>-->
             <a-plane id="ground" src="textures/Ground.png" position="8 -3 -35" rotation="-90 -80 -10" width="65" height="32.5" color="pink" shadow></a-plane>
 
             <!-- Architecture -->
@@ -63,7 +63,7 @@
             <a-entity id="cafeTable-inner-5" position="1 -1 -26" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
             <a-entity id="cafeTable-inner-6" position="1 -1 -14" rotation="0 0 0" scale=".75 .75 .75" gltf-model="#table-1"></a-entity>
 
-            <!--            Decorations on the right side-->
+            <!--Window on the right wall-->
             <a-box id="entrance" src="textures/wall-painting.jpg" color="#00264d" position="22 0.5 -25" depth="5" height="7" width="3.5"></a-box>
             <a-box id="door-right1" src="textures/wall-painting.jpg" color="orange" position="21.85 0.5 -22.5" depth="2.5" height="5" width="0.5" rotation="0 90 0"></a-box>
             <a-box id="door-right2" src="textures/wall-painting.jpg" color="#bfff00" position="20.1 0.5 -23.9" depth="2" height="5" width="0.5"></a-box>
@@ -81,7 +81,6 @@
 
             <!--            This one is not showing up.-->
             <a-entity id="sitting-casual-women" position="-1 0 -21" rotation="0 0 0" scale="5 5 5" gltf-model="#sitting-casual-women"></a-entity>
-
             <a-entity id="model-men" position="9 -0.9 -25" rotation="0 0 0" scale="0.015 0.015 0.015" gltf-model="#model-men"></a-entity>
 
             <!-- <a-entity position="0 5 -15" rotation="0 210 0" gltf-model="#chair-0"></a-entity> -->
